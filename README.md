@@ -34,6 +34,8 @@ Includes:
 - PHP CLI: `ddev php`
 
 ### PostgreSQL Commands:
+- TODO: Since DDEV v1.19 Postgres is a first-class DB. Update this.
+- Based on [ddev-contrib PostgreSQL](https://github.com/ddev/ddev-contrib/blob/master/docker-compose-services/postgres/README.md)
 - Import: `ddev pgsql_import`, Export: `ddev pgsql_export`
 - See PostgreSQL [readme](.ddev/commands/postgres/README.md)
 
