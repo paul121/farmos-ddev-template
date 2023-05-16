@@ -34,7 +34,9 @@ Includes:
 ### Useful DDEV commands:
 - Start: `ddev start`, Stop: `ddev stop`
 - Completely stop: `ddev poweroff`
+- Launch: `ddev launch`
 - Drush: `ddev drush {drush command}`
+  - Login link: `ddev drush uli`
 - PHP CLI: `ddev php`
 
 ### PostgreSQL Commands:
