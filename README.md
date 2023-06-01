@@ -7,6 +7,22 @@ Includes:
 - PHP-GEOS
 - Reference settings.ddev.php
 
+## ⚠️ Archived!!! ⚠️ 
+
+The approach described in this repo is now deprecated:
+- The latest version of DDEV has first-class support for postgres
+- Use [wotnak/ddev-php-geos](https://github.com/wotnak/ddev-php-geos) DDEV add-on to install php-geos.
+
+Run farmOS in DDEV in 5 lines:
+
+```
+ddev config --project-type=drupal9 --docroot=web --create-docroot --database=postgres:15 --php-version=8.1
+ddev get wotnak/ddev-php-geos
+ddev start
+ddev composer create farmos/project:2.x-dev
+ddev drush site:install farm
+```
+
 ## Setup
 
 1. [Install DDEV](https://ddev.com/get-started)
